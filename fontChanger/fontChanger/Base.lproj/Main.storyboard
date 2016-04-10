@@ -31,6 +31,9 @@
                                             <color key="titleColor" red="0.08170730107490734" green="0.34186968522781103" blue="0.48636995663650051" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="changeFontButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S1t-dD-Axd"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -43,8 +46,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wLK-hV-vrb">
                                 <rect key="frame" x="0.0" y="150" width="600" height="150"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Symbol" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UhB-yz-FY0">
-                                        <rect key="frame" x="271" y="64" width="58" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Symbol" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UhB-yz-FY0">
+                                        <rect key="frame" x="265.5" y="46" width="69" height="57.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -95,6 +98,10 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="symbolLabel" destination="UhB-yz-FY0" id="pEy-7A-e1i"/>
+                        <outlet property="titleLabel" destination="tzc-So-gV2" id="Ph0-pI-slU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
