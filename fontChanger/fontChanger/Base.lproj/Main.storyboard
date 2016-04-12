@@ -43,22 +43,6 @@
                                     <constraint firstItem="7T7-bt-4h6" firstAttribute="centerY" secondItem="A8w-5a-mSI" secondAttribute="centerY" id="cn8-4S-hYS"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wLK-hV-vrb">
-                                <rect key="frame" x="0.0" y="150" width="600" height="150"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Symbol" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UhB-yz-FY0">
-                                        <rect key="frame" x="265.5" y="46" width="69" height="57.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="UhB-yz-FY0" firstAttribute="centerX" secondItem="wLK-hV-vrb" secondAttribute="centerX" id="Sid-Ym-dMk"/>
-                                    <constraint firstItem="UhB-yz-FY0" firstAttribute="centerY" secondItem="wLK-hV-vrb" secondAttribute="centerY" id="T2J-ZU-cka"/>
-                                </constraints>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8cl-os-wjx">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="150"/>
                                 <subviews>
@@ -73,6 +57,22 @@
                                 <constraints>
                                     <constraint firstItem="tzc-So-gV2" firstAttribute="centerX" secondItem="8cl-os-wjx" secondAttribute="centerX" id="QRL-p2-Dul"/>
                                     <constraint firstItem="tzc-So-gV2" firstAttribute="centerY" secondItem="8cl-os-wjx" secondAttribute="centerY" id="iGS-0p-A6R"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wLK-hV-vrb">
+                                <rect key="frame" x="0.0" y="150" width="600" height="150"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Symbol" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UhB-yz-FY0">
+                                        <rect key="frame" x="265.5" y="46" width="69" height="57.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="UhB-yz-FY0" firstAttribute="centerX" secondItem="wLK-hV-vrb" secondAttribute="centerX" id="Sid-Ym-dMk"/>
+                                    <constraint firstItem="UhB-yz-FY0" firstAttribute="centerY" secondItem="wLK-hV-vrb" secondAttribute="centerY" id="T2J-ZU-cka"/>
                                 </constraints>
                             </view>
                         </subviews>
