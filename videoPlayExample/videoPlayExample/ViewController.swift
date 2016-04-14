@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  playLocalVideo
+//  videoPlayExample
 //
-//  Created by Matthew Benjamin on 4/11/16.
+//  Created by Matthew Benjamin on 4/13/16.
 //  Copyright © 2016 Matthew Benjamin. All rights reserved.
 //
 
