@@ -7,10 +7,9 @@
 //
 
 import UIKit
-// Import Swift module
 import YouTubePlayer
 
-class ViewController: UIViewController {
+class VideoViewController: UIViewController {
     
 }
 

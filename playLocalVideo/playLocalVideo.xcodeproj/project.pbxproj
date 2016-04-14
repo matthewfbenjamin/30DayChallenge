@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E1FD0AD1CBEEA9200950452 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FD0AC1CBEEA9200950452 /* CustomTableViewCell.swift */; };
+		2E1FD0CD1CBEF62600950452 /* VideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FD0CC1CBEF62600950452 /* VideoTableViewController.swift */; };
+		2E411B7A1CBF183200CCF2F0 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E411B791CBF183200CCF2F0 /* VideoViewController.swift */; };
 		2EB75EFD1CBC4E9C000CFE1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB75EFC1CBC4E9C000CFE1A /* AppDelegate.swift */; };
-		2EB75EFF1CBC4E9C000CFE1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB75EFE1CBC4E9C000CFE1A /* ViewController.swift */; };
 		2EB75F021CBC4E9C000CFE1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB75F001CBC4E9C000CFE1A /* Main.storyboard */; };
 		2EB75F041CBC4E9C000CFE1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB75F031CBC4E9C000CFE1A /* Assets.xcassets */; };
 		2EB75F071CBC4E9C000CFE1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB75F051CBC4E9C000CFE1A /* LaunchScreen.storyboard */; };
+		C336847F07F3F29C5A43CAA5 /* Pods_playLocalVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA2127FF50E08F1586D0319 /* Pods_playLocalVideo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CA2127FF50E08F1586D0319 /* Pods_playLocalVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_playLocalVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B09030FC8F3CE9FB9B66A1 /* Pods-playLocalVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playLocalVideo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-playLocalVideo/Pods-playLocalVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		2E1FD0AC1CBEEA9200950452 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		2E1FD0CC1CBEF62600950452 /* VideoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
+		2E411B791CBF183200CCF2F0 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		2EB75EF91CBC4E9C000CFE1A /* playLocalVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playLocalVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB75EFC1CBC4E9C000CFE1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2EB75EFE1CBC4E9C000CFE1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2EB75F011CBC4E9C000CFE1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EB75F031CBC4E9C000CFE1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EB75F061CBC4E9C000CFE1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EB75F081CBC4E9C000CFE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A122BE544577CF883652FF8D /* Pods-playLocalVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playLocalVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-playLocalVideo/Pods-playLocalVideo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C336847F07F3F29C5A43CAA5 /* Pods_playLocalVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				2EB75EFB1CBC4E9C000CFE1A /* playLocalVideo */,
 				2EB75EFA1CBC4E9C000CFE1A /* Products */,
+				69C33DB2DDE04A7FF911E976 /* Pods */,
+				7C78412B45B0BB6A587AF56A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +66,32 @@
 			isa = PBXGroup;
 			children = (
 				2EB75EFC1CBC4E9C000CFE1A /* AppDelegate.swift */,
-				2EB75EFE1CBC4E9C000CFE1A /* ViewController.swift */,
+				2E1FD0CC1CBEF62600950452 /* VideoTableViewController.swift */,
+				2E1FD0AC1CBEEA9200950452 /* CustomTableViewCell.swift */,
+				2E411B791CBF183200CCF2F0 /* VideoViewController.swift */,
 				2EB75F001CBC4E9C000CFE1A /* Main.storyboard */,
 				2EB75F031CBC4E9C000CFE1A /* Assets.xcassets */,
 				2EB75F051CBC4E9C000CFE1A /* LaunchScreen.storyboard */,
 				2EB75F081CBC4E9C000CFE1A /* Info.plist */,
 			);
 			path = playLocalVideo;
+			sourceTree = "<group>";
+		};
+		69C33DB2DDE04A7FF911E976 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20B09030FC8F3CE9FB9B66A1 /* Pods-playLocalVideo.debug.xcconfig */,
+				A122BE544577CF883652FF8D /* Pods-playLocalVideo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C78412B45B0BB6A587AF56A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CA2127FF50E08F1586D0319 /* Pods_playLocalVideo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EB75F0B1CBC4E9C000CFE1A /* Build configuration list for PBXNativeTarget "playLocalVideo" */;
 			buildPhases = (
+				D06DE7B5E1F6110B292D5C74 /* Check Pods Manifest.lock */,
 				2EB75EF51CBC4E9C000CFE1A /* Sources */,
 				2EB75EF61CBC4E9C000CFE1A /* Frameworks */,
 				2EB75EF71CBC4E9C000CFE1A /* Resources */,
+				4D1EC6933A010540A598389E /* Embed Pods Frameworks */,
+				513E2BD69A32B4D1A353D8C1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +163,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D1EC6933A010540A598389E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-playLocalVideo/Pods-playLocalVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		513E2BD69A32B4D1A353D8C1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-playLocalVideo/Pods-playLocalVideo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D06DE7B5E1F6110B292D5C74 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2EB75EF51CBC4E9C000CFE1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EB75EFF1CBC4E9C000CFE1A /* ViewController.swift in Sources */,
+				2E1FD0AD1CBEEA9200950452 /* CustomTableViewCell.swift in Sources */,
 				2EB75EFD1CBC4E9C000CFE1A /* AppDelegate.swift in Sources */,
+				2E411B7A1CBF183200CCF2F0 /* VideoViewController.swift in Sources */,
+				2E1FD0CD1CBEF62600950452 /* VideoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +330,7 @@
 		};
 		2EB75F0C1CBC4E9C000CFE1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B09030FC8F3CE9FB9B66A1 /* Pods-playLocalVideo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = playLocalVideo/Info.plist;
@@ -258,6 +342,7 @@
 		};
 		2EB75F0D1CBC4E9C000CFE1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A122BE544577CF883652FF8D /* Pods-playLocalVideo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = playLocalVideo/Info.plist;
@@ -286,6 +371,7 @@
 				2EB75F0D1CBC4E9C000CFE1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
