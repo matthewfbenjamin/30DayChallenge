@@ -135,13 +135,13 @@
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="OOg-TG-tm4" id="9xC-Gy-Nfb"/>
-                            <outlet property="delegate" destination="OOg-TG-tm4" id="vjc-d6-W9I"/>
+                            <outlet property="dataSource" destination="OOg-TG-tm4" id="pfL-SD-bWO"/>
+                            <outlet property="delegate" destination="OOg-TG-tm4" id="Sy8-91-QwG"/>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="4Jf-Lx-OFs"/>
                     <connections>
-                        <segue destination="uwG-ao-dCm" kind="show" identifier="showVideoSegue" id="LPE-Ab-BbJ"/>
+                        <segue destination="uwG-ao-dCm" kind="show" identifier="showVideoSegue" id="elf-FE-uv9"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uPT-18-pzs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -151,7 +151,7 @@
         <!--Video View Controller-->
         <scene sceneID="jkx-tq-NCj">
             <objects>
-                <viewController id="uwG-ao-dCm" customClass="VideoViewController" sceneMemberID="viewController">
+                <viewController id="uwG-ao-dCm" customClass="VideoViewController" customModule="playLocalVideo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aQB-fq-dg6"/>
                         <viewControllerLayoutGuide type="bottom" id="bZL-SY-QUI"/>
@@ -159,12 +159,15 @@
                     <view key="view" contentMode="scaleToFill" id="4RR-1f-HMb" customClass="YouTubePlayerView" customModule="YouTubePlayer">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.3175762674" blue="0.41492295109999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="playerView" destination="4RR-1f-HMb" id="bLL-YM-qHp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="epj-Y6-ig6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1801" y="118"/>
+            <point key="canvasLocation" x="1797" y="118"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="lca-Nt-7xh">
