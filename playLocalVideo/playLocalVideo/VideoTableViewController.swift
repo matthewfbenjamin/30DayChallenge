@@ -23,20 +23,20 @@ class VideoTableViewController: UITableViewController {
         return self.allYouTubeVideoImage.count
     }
     
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let videoURL = allYouTubeVideoURL[indexPath.row]
+        passAlongID = videoURL
+        passAlongRow = indexPath.row
+
+        performSegueWithIdentifier("showVideoSegue", sender: self)
+    }
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cellIdentifier = "VideoCell"
         let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! CustomTableViewCell
         
-        var videoURL = allYouTubeVideoURL[indexPath.row]
-        passAlongID = videoURL
-        passAlongRow = indexPath.row
-        
-
-        
         cell.videoName.text = allYouTubeVideoNames[indexPath.row]
         cell.videoPreviewImage.image = UIImage(named: allYouTubeVideoImage[indexPath.row])
-        
-        cell.playButton.addTarget(self, action: #selector(VideoTableViewController.segueToVideoViewController), forControlEvents: .TouchUpInside)
         
         return cell
     }
@@ -47,18 +47,12 @@ class VideoTableViewController: UITableViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if (segue.identifier == "showVideoSegue") {
-                // initialize new view controller and cast it as your view controller
-                let nextScene = segue.destinationViewController as! VideoViewController
-            
-                    // your new view controller should have property that will store passed value
-                    if let paid = passAlongID{
-                        nextScene.newAllYouTubeVideoID = paid
-                        nextScene.newPassAlongRow = passAlongRow
-                    }
-            
-                }
-        
+            let vc = segue.destinationViewController as! VideoViewController
+            vc.newAllYouTubeVideoID = passAlongID
+            vc.newPassAlongRow = passAlongRow
         }
+        
+    }
     
 }
 

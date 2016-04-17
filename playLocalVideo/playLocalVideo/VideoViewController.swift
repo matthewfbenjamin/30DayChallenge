@@ -17,19 +17,18 @@ class VideoViewController: UIViewController {
     var newPassAlongRow: Int?
     
     override func viewDidLoad() {
-        print(newAllYouTubeVideoID)
-        print(newPassAlongRow)
+
         
-        /*playerView.playerVars = [
+        playerView.playerVars = [
             "playsinline": "1",
             "controls": "1",
             "showinfo": "1"
         ]
-        */
-        /*if let theYouTubeID = newAllYouTubeVideoID{
+ 
+        if let theYouTubeID = newAllYouTubeVideoID{
             playerView.loadVideoURL(theYouTubeID)
         }
-        playerView.play()*/
+        playerView.play()
     }
 }
 

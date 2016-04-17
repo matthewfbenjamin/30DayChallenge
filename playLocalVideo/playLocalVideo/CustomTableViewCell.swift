@@ -10,7 +10,6 @@ import UIKit
 
 class CustomTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var playButton: UIButton!
     @IBOutlet weak var videoPreviewImage: UIImageView!
     @IBOutlet weak var videoName: UILabel!
     @IBOutlet weak var videoTime: UILabel!

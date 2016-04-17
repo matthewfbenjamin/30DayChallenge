@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
@@ -27,13 +26,13 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="272.5"/>
                                         </imageView>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bKa-fJ-pD9">
-                                            <rect key="frame" x="0.0" y="136" width="600" height="136.5"/>
+                                            <rect key="frame" x="0.0" y="143" width="600" height="129.5"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eud-RJ-iCw">
-                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="68"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="64.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Zxz-mX-q5u">
-                                                            <rect key="frame" x="0.0" y="24" width="600" height="20.5"/>
+                                                            <rect key="frame" x="0.0" y="22.5" width="600" height="20.5"/>
                                                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -47,17 +46,17 @@
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JNs-o8-dkC">
-                                                    <rect key="frame" x="0.0" y="68" width="600" height="68.5"/>
+                                                    <rect key="frame" x="0.0" y="64.5" width="600" height="65"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jzP-DG-EAf">
-                                                            <rect key="frame" x="0.0" y="55" width="600" height="13.5"/>
+                                                            <rect key="frame" x="0.0" y="52" width="600" height="13"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SdH-h2-h1i">
-                                                            <rect key="frame" x="0.0" y="0.0" width="600" height="55"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="600" height="52"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="uXD-Mh-Uqx">
-                                                                    <rect key="frame" x="0.0" y="17.5" width="600" height="20.5"/>
+                                                                    <rect key="frame" x="0.0" y="16" width="600" height="20.5"/>
                                                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -96,38 +95,28 @@
                                                 <constraint firstItem="JNs-o8-dkC" firstAttribute="centerX" secondItem="bKa-fJ-pD9" secondAttribute="centerX" id="rMu-cn-jt8"/>
                                             </constraints>
                                         </view>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJn-vI-6NS">
-                                            <rect key="frame" x="225" y="0.0" width="150" height="136.5"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" secondItem="qJn-vI-6NS" secondAttribute="height" multiplier="1:1" id="xOT-aH-17L"/>
-                                            </constraints>
-                                            <state key="normal" image="playButton"/>
-                                            <variation key="default">
-                                                <mask key="constraints">
-                                                    <exclude reference="xOT-aH-17L"/>
-                                                </mask>
-                                            </variation>
-                                        </button>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="playButton" translatesAutoresizingMaskIntoConstraints="NO" id="2wb-pN-Gcd">
+                                            <rect key="frame" x="225" y="7" width="150" height="136"/>
+                                        </imageView>
                                     </subviews>
                                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
-                                        <constraint firstItem="qJn-vI-6NS" firstAttribute="width" secondItem="tCC-o1-Vyz" secondAttribute="width" multiplier="1:4" id="0rY-Ju-Sex"/>
+                                        <constraint firstItem="bKa-fJ-pD9" firstAttribute="top" secondItem="2wb-pN-Gcd" secondAttribute="bottom" id="42z-mn-mjK"/>
                                         <constraint firstItem="tCC-o1-Vyz" firstAttribute="width" secondItem="Rf8-h2-p8J" secondAttribute="width" id="6sp-N0-Bv7"/>
                                         <constraint firstItem="tCC-o1-Vyz" firstAttribute="height" secondItem="Rf8-h2-p8J" secondAttribute="height" id="9Xr-sd-wXU"/>
+                                        <constraint firstItem="2wb-pN-Gcd" firstAttribute="width" secondItem="tCC-o1-Vyz" secondAttribute="width" multiplier="1:4" id="F4b-lQ-k6z"/>
+                                        <constraint firstItem="2wb-pN-Gcd" firstAttribute="centerX" secondItem="tCC-o1-Vyz" secondAttribute="centerX" id="G07-00-Vg9"/>
                                         <constraint firstItem="tCC-o1-Vyz" firstAttribute="centerY" secondItem="Rf8-h2-p8J" secondAttribute="centerY" id="Ruh-WL-bav"/>
-                                        <constraint firstItem="qJn-vI-6NS" firstAttribute="centerX" secondItem="tCC-o1-Vyz" secondAttribute="centerX" id="SEQ-q7-WN6"/>
                                         <constraint firstItem="bKa-fJ-pD9" firstAttribute="centerX" secondItem="tCC-o1-Vyz" secondAttribute="centerX" id="UOz-na-Q7C"/>
                                         <constraint firstItem="bKa-fJ-pD9" firstAttribute="bottom" secondItem="tCC-o1-Vyz" secondAttribute="bottom" id="XbT-Lq-x4z"/>
+                                        <constraint firstItem="tCC-o1-Vyz" firstAttribute="top" secondItem="2wb-pN-Gcd" secondAttribute="bottom" constant="-143" id="ccB-Ft-t1A"/>
                                         <constraint firstItem="bKa-fJ-pD9" firstAttribute="width" secondItem="tCC-o1-Vyz" secondAttribute="width" id="cyU-R9-vZj"/>
+                                        <constraint firstItem="2wb-pN-Gcd" firstAttribute="height" secondItem="tCC-o1-Vyz" secondAttribute="height" multiplier="1:2" id="g66-aa-nsh"/>
                                         <constraint firstItem="tCC-o1-Vyz" firstAttribute="centerX" secondItem="Rf8-h2-p8J" secondAttribute="centerX" id="jsF-jm-2Hf"/>
-                                        <constraint firstItem="qJn-vI-6NS" firstAttribute="top" secondItem="tCC-o1-Vyz" secondAttribute="top" id="sNS-xf-nj2"/>
-                                        <constraint firstItem="qJn-vI-6NS" firstAttribute="height" secondItem="tCC-o1-Vyz" secondAttribute="height" multiplier="1:2" id="t2v-zH-LxW"/>
-                                        <constraint firstItem="bKa-fJ-pD9" firstAttribute="top" secondItem="qJn-vI-6NS" secondAttribute="bottom" id="v19-gx-34T"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <outlet property="playButton" destination="qJn-vI-6NS" id="E3l-xh-KMc"/>
                                     <outlet property="videoName" destination="Zxz-mX-q5u" id="odC-2q-XhO"/>
                                     <outlet property="videoPreviewImage" destination="tCC-o1-Vyz" id="qp0-Mm-Dhl"/>
                                     <outlet property="videoTime" destination="uXD-Mh-Uqx" id="8gH-4v-DlN"/>
