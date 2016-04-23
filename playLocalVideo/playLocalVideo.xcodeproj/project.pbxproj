@@ -67,8 +67,8 @@
 			children = (
 				2EB75EFC1CBC4E9C000CFE1A /* AppDelegate.swift */,
 				2E1FD0CC1CBEF62600950452 /* VideoTableViewController.swift */,
-				2E411B791CBF183200CCF2F0 /* VideoViewController.swift */,
 				2E1FD0AC1CBEEA9200950452 /* CustomTableViewCell.swift */,
+				2E411B791CBF183200CCF2F0 /* VideoViewController.swift */,
 				2EB75F001CBC4E9C000CFE1A /* Main.storyboard */,
 				2EB75F031CBC4E9C000CFE1A /* Assets.xcassets */,
 				2EB75F051CBC4E9C000CFE1A /* LaunchScreen.storyboard */,
