@@ -20,6 +20,10 @@ class HomeViewController: UIViewController {
     //MARK: UICollectionViewDataSource
     private var interests = Interest.createInterests()
     
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return .LightContent
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -47,5 +51,28 @@ extension HomeViewController : UICollectionViewDataSource {
         cell.interest = self.interests[indexPath.item]
         
         return cell
+    }
+}
+
+extension HomeViewController: UIScrollViewDelegate {
+    func scrollViewWillEndDragging(scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
+        let layout = self.collectionView?.collectionViewLayout as! UICollectionViewFlowLayout
+        
+        let cellWidthIncludingSpacing = layout.itemSize.width + layout.minimumLineSpacing //minimumLineSpacing for scrolling horizontally
+        
+        var offset = targetContentOffset.memory
+        let index = (offset.x + scrollView.contentInset.left)/cellWidthIncludingSpacing
+        let roundedIndex = round(index)
+        
+        offset = CGPoint(x: roundedIndex * cellWidthIncludingSpacing - scrollView.contentInset.left, y: -scrollView.contentInset.top)
+        
+        targetContentOffset.memory = offset
+        
+        
+        
+        
+        
+        
+        
     }
 }
