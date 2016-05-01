@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="eja-Du-uNa">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FindMyLocation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="qTX-1W-aRA">
+                                <rect key="frame" x="0.0" y="150" width="600" height="450"/>
+                            </mapView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UAw-QE-Evr">
+                                <rect key="frame" x="0.0" y="64" width="600" height="86"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9y5-fw-Dqb">
+                                        <rect key="frame" x="256" y="28" width="88" height="30"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Get Location">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="getLocationButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ov0-34-7uR"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.3175762674" blue="0.41492295109999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="9y5-fw-Dqb" firstAttribute="centerY" secondItem="UAw-QE-Evr" secondAttribute="centerY" id="goe-xJ-8T3"/>
+                                    <constraint firstItem="9y5-fw-Dqb" firstAttribute="centerX" secondItem="UAw-QE-Evr" secondAttribute="centerX" id="q8r-ST-shZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qTX-1W-aRA" firstAttribute="top" secondItem="UAw-QE-Evr" secondAttribute="bottom" id="WS7-aB-EiX"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="qTX-1W-aRA" secondAttribute="bottom" id="Xou-pN-tkA"/>
+                            <constraint firstItem="qTX-1W-aRA" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="3:4" id="byG-4f-HSA"/>
+                            <constraint firstItem="qTX-1W-aRA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cLR-2f-xaA"/>
+                            <constraint firstItem="UAw-QE-Evr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="dLd-P5-8eW"/>
+                            <constraint firstItem="UAw-QE-Evr" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="ejj-qZ-9dc"/>
+                            <constraint firstItem="qTX-1W-aRA" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="etz-Tb-TVc"/>
+                            <constraint firstItem="UAw-QE-Evr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pVu-FS-eVR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="lbR-2S-3n9">
+                        <nil key="title"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mapView" destination="qTX-1W-aRA" id="wuE-ga-9gg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1024" y="349"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="OQe-F2-uWF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eja-Du-uNa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Uip-NS-uks">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="0Vh-Rp-HfK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aea-A4-gYm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="285" y="-343"/>
+        </scene>
+    </scenes>
+</document>
