@@ -14,6 +14,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     @IBOutlet weak var mapView: MKMapView!
     let locationManager = CLLocationManager()
     
+    @IBOutlet weak var getLocationButtonOutlet: UIButton!
     
     
     @IBAction func getLocationButtonClicked(sender: AnyObject) {
@@ -24,7 +25,6 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         self.locationManager.startUpdatingLocation() //Start looking for location
         
         self.mapView.showsUserLocation = true
-        
     }
     
     override func viewDidLoad() {
@@ -46,12 +46,44 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         
         self.mapView.setRegion(region, animated: true)
         self.locationManager.stopUpdatingLocation()
+        
+    
+        // Add below code to get address for touch coordinates.
+        
+        let geoCoder = CLGeocoder()
+        
+        geoCoder.reverseGeocodeLocation(location!, completionHandler: { (placemarks, error) -> Void in
+            
+            // Place details
+            var placeMark: CLPlacemark!
+            placeMark = placemarks?[0]
+            
+            // Location name
+            if let locationName = placeMark.addressDictionary!["Name"] as? NSString {
+                print(locationName)
+            }
+            
+            // Street address
+            if let street = placeMark.addressDictionary!["Thoroughfare"] as? NSString {
+                print(street)
+            }
+            
+            // City
+            if let city = placeMark.addressDictionary!["City"] as? String {
+                print(city)
+                self.getLocationButtonOutlet.setTitle(city, forState: .Normal)
+            }
+            
+        })
     }
+}
+
     
     func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
         print("Errors: " + error.localizedDescription)
         
     }
     
-}
+
+
 

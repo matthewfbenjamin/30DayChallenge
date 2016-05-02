@@ -25,8 +25,8 @@
                                 <rect key="frame" x="0.0" y="64" width="600" height="86"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9y5-fw-Dqb">
-                                        <rect key="frame" x="256" y="28" width="88" height="30"/>
-                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <rect key="frame" x="248.5" y="26" width="103" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title="Get Location">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
@@ -58,6 +58,7 @@
                         <nil key="title"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="getLocationButtonOutlet" destination="9y5-fw-Dqb" id="kT5-og-J5y"/>
                         <outlet property="mapView" destination="qTX-1W-aRA" id="wuE-ga-9gg"/>
                     </connections>
                 </viewController>
