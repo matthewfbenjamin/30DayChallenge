@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mSW-lt-ask">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Select Song View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SelectSongViewController" customModule="colorMusicPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fNg-pw-RY3">
+                                <rect key="frame" x="0.0" y="44" width="600" height="200"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUs-OJ-xLx">
+                                        <rect key="frame" x="185.5" y="85" width="229" height="30"/>
+                                        <state key="normal" title="Dearly Departed - Shakey Graves">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="SW7-el-EZD" kind="show" id="q1N-cS-7Hm"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="bUs-OJ-xLx" firstAttribute="centerX" secondItem="fNg-pw-RY3" secondAttribute="centerX" id="gwh-ZJ-KcC"/>
+                                    <constraint firstItem="bUs-OJ-xLx" firstAttribute="centerY" secondItem="fNg-pw-RY3" secondAttribute="centerY" id="lYd-cn-NO3"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JRU-6b-vhI">
+                                <rect key="frame" x="0.0" y="244" width="600" height="156"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Jz-XD-Apf">
+                                        <rect key="frame" x="206" y="63" width="188" height="30"/>
+                                        <state key="normal" title="Ghost 'n' Stuff - DeadMau5">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="dzp-ms-UGc" kind="show" id="6NS-xa-tHH"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="7Jz-XD-Apf" firstAttribute="centerY" secondItem="JRU-6b-vhI" secondAttribute="centerY" id="ATX-vF-r3y"/>
+                                    <constraint firstItem="7Jz-XD-Apf" firstAttribute="centerX" secondItem="JRU-6b-vhI" secondAttribute="centerX" id="CTT-UB-YE9"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qi5-e0-heg">
+                                <rect key="frame" x="0.0" y="400" width="600" height="200"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YnZ-hK-Lgs">
+                                        <rect key="frame" x="181.5" y="85" width="237" height="30"/>
+                                        <state key="normal" title="Can't Stop - Red Hot Chili Peppers">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="jmx-EM-DHK" kind="show" id="65P-34-21u"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="YnZ-hK-Lgs" firstAttribute="centerX" secondItem="Qi5-e0-heg" secondAttribute="centerX" id="5ku-5W-LqK"/>
+                                    <constraint firstItem="YnZ-hK-Lgs" firstAttribute="centerY" secondItem="Qi5-e0-heg" secondAttribute="centerY" id="eUu-WG-g0u"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.34940512239999999" green="0.84431089739999998" blue="0.49486332039999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Qi5-e0-heg" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:3" id="3Om-Sx-DqT"/>
+                            <constraint firstItem="Qi5-e0-heg" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="4AX-az-lJx"/>
+                            <constraint firstItem="Qi5-e0-heg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4zf-te-V9L"/>
+                            <constraint firstItem="fNg-pw-RY3" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="6Lh-IU-PHo"/>
+                            <constraint firstItem="JRU-6b-vhI" firstAttribute="top" secondItem="fNg-pw-RY3" secondAttribute="bottom" id="Mle-2n-hTj"/>
+                            <constraint firstItem="JRU-6b-vhI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OM0-wA-oG3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Qi5-e0-heg" secondAttribute="bottom" id="YBy-EZ-3jF"/>
+                            <constraint firstItem="fNg-pw-RY3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZgE-sw-aac"/>
+                            <constraint firstItem="fNg-pw-RY3" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:3" id="asM-n4-9zq"/>
+                            <constraint firstItem="JRU-6b-vhI" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="blN-dH-1MC"/>
+                            <constraint firstItem="fNg-pw-RY3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="hIc-zX-ouq"/>
+                            <constraint firstItem="Qi5-e0-heg" firstAttribute="top" secondItem="JRU-6b-vhI" secondAttribute="bottom" id="nqB-ck-gP3"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Hj2-Ud-5BG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="805" y="1004"/>
+        </scene>
+        <!--ShakeyViewController-->
+        <scene sceneID="B3f-OA-8dy">
+            <objects>
+                <viewController id="SW7-el-EZD" userLabel="ShakeyViewController" customClass="ShakeyViewController" customModule="colorMusicPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VG2-Ul-mpD"/>
+                        <viewControllerLayoutGuide type="bottom" id="0Yc-tS-xca"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WEn-km-d7y">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3sg-zG-2O6">
+                                <rect key="frame" x="150" y="225" width="300" height="150"/>
+                                <state key="normal" image="musicPlay"/>
+                                <connections>
+                                    <action selector="playButtonWasClicked:" destination="SW7-el-EZD" eventType="touchUpInside" id="fTL-Hq-Kkw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3sg-zG-2O6" firstAttribute="centerY" secondItem="WEn-km-d7y" secondAttribute="centerY" id="30o-4s-cxD"/>
+                            <constraint firstItem="3sg-zG-2O6" firstAttribute="height" secondItem="WEn-km-d7y" secondAttribute="height" multiplier="1:4" id="AR8-MI-UY0"/>
+                            <constraint firstItem="3sg-zG-2O6" firstAttribute="centerX" secondItem="WEn-km-d7y" secondAttribute="centerX" id="NyH-R3-zw3"/>
+                            <constraint firstItem="3sg-zG-2O6" firstAttribute="width" secondItem="WEn-km-d7y" secondAttribute="width" multiplier="1:2" id="Tn4-29-xeo"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WWn-FZ-ouA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1453" y="1004"/>
+        </scene>
+        <!--DeadMau5ViewController-->
+        <scene sceneID="wef-lU-X9z">
+            <objects>
+                <viewController id="dzp-ms-UGc" userLabel="DeadMau5ViewController" customClass="DeadMau5ViewController" customModule="colorMusicPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VXg-3y-kf9"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q4O-CC-svP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eLQ-MC-xqB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nDC-xj-dSo">
+                                <rect key="frame" x="150" y="225" width="300" height="150"/>
+                                <state key="normal" image="musicPlay"/>
+                                <connections>
+                                    <action selector="playButtonWasClicked:" destination="dzp-ms-UGc" eventType="touchUpInside" id="odh-Im-Pw4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nDC-xj-dSo" firstAttribute="centerX" secondItem="eLQ-MC-xqB" secondAttribute="centerX" id="BZh-OP-N9F"/>
+                            <constraint firstItem="nDC-xj-dSo" firstAttribute="centerY" secondItem="eLQ-MC-xqB" secondAttribute="centerY" id="Js2-JJ-4rM"/>
+                            <constraint firstItem="nDC-xj-dSo" firstAttribute="height" secondItem="eLQ-MC-xqB" secondAttribute="height" multiplier="1:4" id="Uki-Sq-gqT"/>
+                            <constraint firstItem="nDC-xj-dSo" firstAttribute="width" secondItem="eLQ-MC-xqB" secondAttribute="width" multiplier="1:2" id="y9P-gD-rx4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dBS-j0-yfI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1453" y="1652"/>
+        </scene>
+        <!--RHCPViewController-->
+        <scene sceneID="PWz-5p-Wme">
+            <objects>
+                <viewController id="jmx-EM-DHK" userLabel="RHCPViewController" customClass="RHCPViewController" customModule="colorMusicPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AaI-2r-qfc"/>
+                        <viewControllerLayoutGuide type="bottom" id="5e2-S9-fe1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tme-o3-Rop">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDp-1T-gyv">
+                                <rect key="frame" x="150" y="225" width="300" height="150"/>
+                                <state key="normal" image="musicPlay"/>
+                                <connections>
+                                    <action selector="playButtonWasClicked:" destination="jmx-EM-DHK" eventType="touchUpInside" id="eWB-Na-WxI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JDp-1T-gyv" firstAttribute="width" secondItem="tme-o3-Rop" secondAttribute="width" multiplier="1:2" id="3C7-cl-p8n"/>
+                            <constraint firstItem="JDp-1T-gyv" firstAttribute="height" secondItem="tme-o3-Rop" secondAttribute="height" multiplier="1:4" id="Qtc-Lp-Xet"/>
+                            <constraint firstItem="JDp-1T-gyv" firstAttribute="centerX" secondItem="tme-o3-Rop" secondAttribute="centerX" id="cWe-Gp-vNb"/>
+                            <constraint firstItem="JDp-1T-gyv" firstAttribute="centerY" secondItem="tme-o3-Rop" secondAttribute="centerY" id="gxO-Mw-NKe"/>
+                            <constraint firstItem="JDp-1T-gyv" firstAttribute="height" secondItem="tme-o3-Rop" secondAttribute="height" id="tEZ-91-IhO"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="tEZ-91-IhO"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DjZ-jc-BMM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1453" y="361"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="X01-aU-HQl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mSW-lt-ask" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JYi-ME-QKs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="FaI-qw-z0r"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YNH-1H-lBf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="89" y="1009"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="musicPlay" width="400" height="293"/>
+    </resources>
+</document>
