@@ -19,4 +19,4 @@ Note that the white screen is a camera, but simulator doesn't show it.
 ![alt tag](https://github.com/mbenjamin618/30DayChallenge/blob/master/FindMyLocation/2016-05-01 10_25_16.gif)
 
 #Project 6: Pull To Refresh
-
+![alt tag](https://github.com/mbenjamin618/30DayChallenge/blob/master/pullToRefresh/2016-05-07 14_36_21.gif)
