@@ -26,7 +26,7 @@ class TableVC: UITableViewController {
         let attributes = [NSForegroundColorAttributeName: UIColor.blackColor()]
 
         self.refreshControl?.addTarget(self, action: #selector(TableVC.handleRefresh(_:)), forControlEvents: UIControlEvents.ValueChanged)
-        self.refreshControl!.attributedTitle = NSAttributedString(string: "Last updated on \(NSDate())", attributes: attributes)
+        
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -50,7 +50,9 @@ class TableVC: UITableViewController {
         movies.append(newMovie)
         
         movies.sortInPlace() { $0.title < $1.title }
+        self.refreshControl?.attributedTitle = NSAttributedString(string: "Last updated on \(NSDate())")
         
+        //self.refreshControl?.attributedTitle = NSAttributedString(string: "Last updated on \(NSDate())", attributes: attributes)
         
         self.tableView.reloadData()
         refreshControl.endRefreshing()
