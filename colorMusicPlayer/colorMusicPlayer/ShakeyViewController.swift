@@ -17,7 +17,7 @@ class ShakeyViewController: UIViewController {
     let gradientLayer = CAGradientLayer()
     var isPlaying: Bool = false
     var timer: NSTimer?
-    var timeToPlay: NSTimeInterval = 0.00
+    var timeToPlay: NSTimeInterval = 2.0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,7 +55,7 @@ class ShakeyViewController: UIViewController {
                 backgroundMusicPlayer = try AVAudioPlayer(contentsOfURL: song, fileTypeHint: nil)
                 backgroundMusicPlayer.numberOfLoops = -1
                 backgroundMusicPlayer.prepareToPlay()
-                backgroundMusicPlayer.play()
+                backgroundMusicPlayer.playAtTime(backgroundMusicPlayer.deviceCurrentTime + timeToPlay)
                 isPlaying = true
             }
                 
@@ -90,9 +90,8 @@ class ShakeyViewController: UIViewController {
             
         //MARK: Audio Is Playing
         else {
-            var currentTime = backgroundMusicPlayer.currentTime;
-            timeToPlay = currentTime
-            print(currentTime)
+            timeToPlay = backgroundMusicPlayer.deviceCurrentTime
+            print(timeToPlay)
             timer!.invalidate()
             let redValue = CGFloat(drand48())
             let blueValue =  CGFloat(drand48())
