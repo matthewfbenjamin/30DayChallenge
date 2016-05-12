@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5ou-iI-QO5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5ou-iI-QO5">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -60,31 +60,7 @@
         <!--Scroll View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ScrollViewController" customModule="ImageScrollView" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="oRd-N2-LyV"/>
-                        <viewControllerLayoutGuide type="bottom" id="T4r-MP-idc"/>
-                    </layoutGuides>
-                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="vxC-Rp-OSL">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HXP-MD-gjL">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                            </imageView>
-                        </subviews>
-                        <constraints>
-                            <constraint firstItem="HXP-MD-gjL" firstAttribute="centerY" secondItem="vxC-Rp-OSL" secondAttribute="centerY" id="5e9-hO-Rn3"/>
-                            <constraint firstItem="HXP-MD-gjL" firstAttribute="height" secondItem="vxC-Rp-OSL" secondAttribute="height" id="HwC-YO-Gfs"/>
-                            <constraint firstItem="HXP-MD-gjL" firstAttribute="centerX" secondItem="vxC-Rp-OSL" secondAttribute="centerX" id="OB1-JF-ySN"/>
-                            <constraint firstItem="HXP-MD-gjL" firstAttribute="width" secondItem="vxC-Rp-OSL" secondAttribute="width" id="bLT-ES-UOg"/>
-                        </constraints>
-                    </scrollView>
-                    <connections>
-                        <outlet property="scrollView" destination="vxC-Rp-OSL" id="M7T-RO-8gA"/>
-                        <outlet property="theImageView" destination="HXP-MD-gjL" id="1fZ-HE-Pgt"/>
-                    </connections>
-                </viewController>
+                <viewController id="BYZ-38-t0r" customClass="ScrollViewController" customModule="ImageScrollView" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1050" y="348"/>

@@ -20,3 +20,9 @@ Note that the white screen is a camera, but simulator doesn't show it.
 
 #Project 6: Pull To Refresh
 ![alt tag](https://github.com/mbenjamin618/30DayChallenge/blob/master/pullToRefresh/2016-05-07 14_36_21.gif)
+
+#Project 7: Color Music Player
+![alt tag](https://github.com/mbenjamin618/30DayChallenge/blob/master/colorMusicPlayer/2016-05-11 18_58_24.gif)
+
+#Project 8: Image Scroll View
+

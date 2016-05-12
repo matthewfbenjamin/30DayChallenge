@@ -47,12 +47,11 @@ class PickImageViewController: UIViewController, UIImagePickerControllerDelegate
             
             if let nextViewController = segue.destinationViewController as? ScrollViewController {
                 if let sImage = selectedImage{
-                nextViewController.image = sImage
+                    nextViewController.image = sImage
                 }
-                
             }
         }
-        
     }
 
+    
 }
