@@ -25,4 +25,5 @@ Note that the white screen is a camera, but simulator doesn't show it.
 ![alt tag](https://github.com/mbenjamin618/30DayChallenge/blob/master/colorMusicPlayer/2016-05-11 18_58_24.gif)
 
 #Project 8: Image Scroll View
+![alt tag](https://github.com/mbenjamin618/30DayChallenge/blob/master/ImageScrollView/2016-05-11 20_07_15.gif)
 
