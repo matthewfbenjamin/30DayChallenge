@@ -27,3 +27,5 @@ Note that the white screen is a camera, but simulator doesn't show it.
 #Project 8: Image Scroll View
 ![alt tag](https://github.com/mbenjamin618/30DayChallenge/blob/master/ImageScrollView/2016-05-11 20_07_15.gif)
 
+#Project 9: Video Background
+![alt tag](https://github.com/mbenjamin618/30DayChallenge/blob/master/videoBackground/2016-05-14 09_28_59)
