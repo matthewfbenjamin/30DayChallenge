@@ -32,3 +32,6 @@ Note that the white screen is a camera, but simulator doesn't show it.
 
 #Project 10: Simple API App
 ![alt tag](https://github.com/mbenjamin618/30DayChallenge/blob/master/10 - SimpleRESTApiCall/2016-05-16 20_04_58.gif)
+
+#Project 11: Screen Animations
+![alt tag](https://github.com/mbenjamin618/30DayChallenge/blob/master/11 - SignUpAnimation/appGif.gif)

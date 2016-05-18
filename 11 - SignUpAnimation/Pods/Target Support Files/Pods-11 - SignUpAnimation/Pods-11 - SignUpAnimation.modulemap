@@ -1,0 +1,6 @@
+framework module Pods_11___SignUpAnimation {
+  umbrella header "Pods-11 - SignUpAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E32DE521CED0A9100AA0744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32DE511CED0A9100AA0744 /* AppDelegate.swift */; };
+		2E32DE541CED0A9100AA0744 /* OpeningScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32DE531CED0A9100AA0744 /* OpeningScreenViewController.swift */; };
+		2E32DE571CED0A9100AA0744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E32DE551CED0A9100AA0744 /* Main.storyboard */; };
+		2E32DE591CED0A9100AA0744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E32DE581CED0A9100AA0744 /* Assets.xcassets */; };
+		2E32DE5C1CED0A9100AA0744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E32DE5A1CED0A9100AA0744 /* LaunchScreen.storyboard */; };
+		2E32DE641CED0BE200AA0744 /* planet.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E32DE631CED0BE200AA0744 /* planet.gif */; };
+		2E6F8D6D1CED131100C62DD6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F8D6C1CED131100C62DD6 /* LoginViewController.swift */; };
+		9EC479518371BB2D873D6A1F /* Pods_11___SignUpAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E756B652041FCEAA143B3FE /* Pods_11___SignUpAnimation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E32DE4E1CED0A9100AA0744 /* 11 - SignUpAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "11 - SignUpAnimation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E32DE511CED0A9100AA0744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E32DE531CED0A9100AA0744 /* OpeningScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningScreenViewController.swift; sourceTree = "<group>"; };
+		2E32DE561CED0A9100AA0744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E32DE581CED0A9100AA0744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E32DE5B1CED0A9100AA0744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E32DE5D1CED0A9100AA0744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E32DE631CED0BE200AA0744 /* planet.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = planet.gif; sourceTree = SOURCE_ROOT; };
+		2E6F8D6C1CED131100C62DD6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2E756B652041FCEAA143B3FE /* Pods_11___SignUpAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_11___SignUpAnimation.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E82FAB4D9310CDA963678FE /* Pods-11 - SignUpAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-11 - SignUpAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-11 - SignUpAnimation/Pods-11 - SignUpAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		65DA0568B1648B240E1C4EA5 /* Pods-11 - SignUpAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-11 - SignUpAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-11 - SignUpAnimation/Pods-11 - SignUpAnimation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E32DE4B1CED0A9100AA0744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC479518371BB2D873D6A1F /* Pods_11___SignUpAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E32DE451CED0A9100AA0744 = {
+			isa = PBXGroup;
+			children = (
+				2E32DE501CED0A9100AA0744 /* 11 - SignUpAnimation */,
+				2E32DE4F1CED0A9100AA0744 /* Products */,
+				79759C7DF8423B9EEA021211 /* Pods */,
+				5FC20A82231CAEABC5260BA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E32DE4F1CED0A9100AA0744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E32DE4E1CED0A9100AA0744 /* 11 - SignUpAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E32DE501CED0A9100AA0744 /* 11 - SignUpAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				2E32DE511CED0A9100AA0744 /* AppDelegate.swift */,
+				2E32DE531CED0A9100AA0744 /* OpeningScreenViewController.swift */,
+				2E6F8D6C1CED131100C62DD6 /* LoginViewController.swift */,
+				2E32DE551CED0A9100AA0744 /* Main.storyboard */,
+				2E32DE581CED0A9100AA0744 /* Assets.xcassets */,
+				2E32DE5A1CED0A9100AA0744 /* LaunchScreen.storyboard */,
+				2E32DE5D1CED0A9100AA0744 /* Info.plist */,
+				2E32DE631CED0BE200AA0744 /* planet.gif */,
+			);
+			path = "11 - SignUpAnimation";
+			sourceTree = "<group>";
+		};
+		5FC20A82231CAEABC5260BA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E756B652041FCEAA143B3FE /* Pods_11___SignUpAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79759C7DF8423B9EEA021211 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E82FAB4D9310CDA963678FE /* Pods-11 - SignUpAnimation.debug.xcconfig */,
+				65DA0568B1648B240E1C4EA5 /* Pods-11 - SignUpAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E32DE4D1CED0A9100AA0744 /* 11 - SignUpAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E32DE601CED0A9100AA0744 /* Build configuration list for PBXNativeTarget "11 - SignUpAnimation" */;
+			buildPhases = (
+				6DB1EBBA172A267B1262DBB0 /* Check Pods Manifest.lock */,
+				2E32DE4A1CED0A9100AA0744 /* Sources */,
+				2E32DE4B1CED0A9100AA0744 /* Frameworks */,
+				2E32DE4C1CED0A9100AA0744 /* Resources */,
+				77FB0EC8BCBFDE05F9C88223 /* Embed Pods Frameworks */,
+				E6A8D4C299403033F3DE424E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11 - SignUpAnimation";
+			productName = "11 - SignUpAnimation";
+			productReference = 2E32DE4E1CED0A9100AA0744 /* 11 - SignUpAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E32DE461CED0A9100AA0744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Matthew Benjamin";
+				TargetAttributes = {
+					2E32DE4D1CED0A9100AA0744 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2E32DE491CED0A9100AA0744 /* Build configuration list for PBXProject "11 - SignUpAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E32DE451CED0A9100AA0744;
+			productRefGroup = 2E32DE4F1CED0A9100AA0744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E32DE4D1CED0A9100AA0744 /* 11 - SignUpAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E32DE4C1CED0A9100AA0744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E32DE5C1CED0A9100AA0744 /* LaunchScreen.storyboard in Resources */,
+				2E32DE591CED0A9100AA0744 /* Assets.xcassets in Resources */,
+				2E32DE641CED0BE200AA0744 /* planet.gif in Resources */,
+				2E32DE571CED0A9100AA0744 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6DB1EBBA172A267B1262DBB0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77FB0EC8BCBFDE05F9C88223 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-11 - SignUpAnimation/Pods-11 - SignUpAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6A8D4C299403033F3DE424E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-11 - SignUpAnimation/Pods-11 - SignUpAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E32DE4A1CED0A9100AA0744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6F8D6D1CED131100C62DD6 /* LoginViewController.swift in Sources */,
+				2E32DE541CED0A9100AA0744 /* OpeningScreenViewController.swift in Sources */,
+				2E32DE521CED0A9100AA0744 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E32DE551CED0A9100AA0744 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E32DE561CED0A9100AA0744 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E32DE5A1CED0A9100AA0744 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E32DE5B1CED0A9100AA0744 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E32DE5E1CED0A9100AA0744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E32DE5F1CED0A9100AA0744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E32DE611CED0A9100AA0744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E82FAB4D9310CDA963678FE /* Pods-11 - SignUpAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "11 - SignUpAnimation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbenjamin618.-1---SignUpAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E32DE621CED0A9100AA0744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65DA0568B1648B240E1C4EA5 /* Pods-11 - SignUpAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "11 - SignUpAnimation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbenjamin618.-1---SignUpAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E32DE491CED0A9100AA0744 /* Build configuration list for PBXProject "11 - SignUpAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E32DE5E1CED0A9100AA0744 /* Debug */,
+				2E32DE5F1CED0A9100AA0744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E32DE601CED0A9100AA0744 /* Build configuration list for PBXNativeTarget "11 - SignUpAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E32DE611CED0A9100AA0744 /* Debug */,
+				2E32DE621CED0A9100AA0744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E32DE461CED0A9100AA0744 /* Project object */;
+}

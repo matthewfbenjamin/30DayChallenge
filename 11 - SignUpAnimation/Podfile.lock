@@ -1,0 +1,10 @@
+PODS:
+  - MBSegueCollection (0.2.1)
+
+DEPENDENCIES:
+  - MBSegueCollection (~> 0.2)
+
+SPEC CHECKSUMS:
+  MBSegueCollection: d837c6645ade9607dd4ff1161ec995d5485c157a
+
+COCOAPODS: 0.39.0
