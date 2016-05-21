@@ -32,7 +32,7 @@ class TableViewController: UITableViewController {
         self.tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0)
     }
     
-    func colorforIndex(index: Int) -> UIColor {
+    /* func colorforIndex(index: Int) -> UIColor {
         
         let itemCount = titles.count - 1
         let color = (CGFloat(index) / CGFloat(itemCount)) * 0.6
@@ -44,7 +44,7 @@ class TableViewController: UITableViewController {
         
         cell.backgroundColor =  colorforIndex(indexPath.row)
         
-    }
+    }*/
     
     override func viewWillAppear(animated: Bool) {
         animateTable()
