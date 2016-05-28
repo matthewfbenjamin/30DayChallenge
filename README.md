@@ -41,3 +41,6 @@ Note that the white screen is a camera, but simulator doesn't show it.
 
 #Project 13: Emoji Slot Machine 
 ![alt tag](https://github.com/mbenjamin618/30DayChallenge/blob/master/13 - EmojiSlotMachine/emoji.gif)
+
+#Project 14: Animated Login 
+![alt tag](https://github.com/mbenjamin618/30DayChallenge/blob/master/14 - AnimatedLogin/animation.gif)
