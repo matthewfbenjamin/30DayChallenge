@@ -200,6 +200,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     @IBAction func resetBetButtonClicked(sender: AnyObject) {
         betAmt = 0
         updateLabel(bankAmt)
+        
     }
     
     func addBet(betAmt: Int){

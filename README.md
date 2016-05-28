@@ -35,3 +35,9 @@ Note that the white screen is a camera, but simulator doesn't show it.
 
 #Project 11: Screen Animations
 ![alt tag](https://github.com/mbenjamin618/30DayChallenge/blob/master/11 - SignUpAnimation/appGif.gif)
+
+#Project 12: Table Animations
+![alt tag](https://github.com/mbenjamin618/30DayChallenge/blob/master/12 - TableViewControllerAnimations/animation.gif)
+
+#Project 13: Emoji Slot Machine 
+![alt tag](https://github.com/mbenjamin618/30DayChallenge/blob/master/13 - EmojiSlotMachine/emoji.gif)
