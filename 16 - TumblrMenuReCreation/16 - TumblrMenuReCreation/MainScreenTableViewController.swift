@@ -11,13 +11,11 @@ import UIKit
 class MainScreenTableViewController: UITableViewController {
     
     var allImages = ["dance", "iron", "la_boca", "street_art_1", "street_art_2"]
-    
+    let transitionManager = TransitionManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.rowHeight = 250
-
-
     }
 
     override func didReceiveMemoryWarning() {
@@ -44,6 +42,17 @@ class MainScreenTableViewController: UITableViewController {
 
     @IBAction func unwindToMain(segue: UIStoryboardSegue) {
         self.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        // this gets a reference to the screen that we're about to transition to
+        let toViewController = segue.destinationViewController as UIViewController
+        
+        // instead of using the default transition animation, we'll ask
+        // the segue to use our custom TransitionManager object to manage the transition animation
+        toViewController.transitioningDelegate = self.transitionManager
+        
     }
 
     

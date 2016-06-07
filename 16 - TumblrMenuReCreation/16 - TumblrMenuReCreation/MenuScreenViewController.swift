@@ -11,6 +11,14 @@ import FontAwesome_swift
 
 class MenuScreenViewController: UIViewController {
     
+    
+    @IBOutlet weak var textIcon: UIImageView!
+    @IBOutlet weak var chatIcon: UIImageView!
+    @IBOutlet weak var messageIcon: UIImageView!
+    @IBOutlet weak var photoIcon: UIImageView!
+    @IBOutlet weak var linkIcon: UIImageView!
+    @IBOutlet weak var musicIcon: UIImageView!
+    
     @IBOutlet weak var cancelButtonOutlet: UIButton!
     
     override func viewDidLoad() {

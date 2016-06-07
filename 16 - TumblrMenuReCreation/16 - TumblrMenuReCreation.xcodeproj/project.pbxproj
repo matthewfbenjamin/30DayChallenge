@@ -17,6 +17,7 @@
 		2E3A68F61D04A60F00CEC4A8 /* MainScreenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A68F51D04A60F00CEC4A8 /* MainScreenTableViewController.swift */; };
 		2E3A68F81D04A62E00CEC4A8 /* MenuScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A68F71D04A62E00CEC4A8 /* MenuScreenViewController.swift */; };
 		2E3A68FC1D04D98300CEC4A8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A68FB1D04D98300CEC4A8 /* TableViewCell.swift */; };
+		2EC9B1361D076BE800B8B753 /* TransistionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC9B1351D076BE800B8B753 /* TransistionManager.swift */; };
 		3D2ECB80223FD038B8F85619 /* Pods_16___TumblrMenuReCreation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B836B8E46AE3CB33ABE26D /* Pods_16___TumblrMenuReCreation.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		2E3A68F51D04A60F00CEC4A8 /* MainScreenTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenTableViewController.swift; sourceTree = "<group>"; };
 		2E3A68F71D04A62E00CEC4A8 /* MenuScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScreenViewController.swift; sourceTree = "<group>"; };
 		2E3A68FB1D04D98300CEC4A8 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2EC9B1351D076BE800B8B753 /* TransistionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransistionManager.swift; sourceTree = "<group>"; };
 		78B836B8E46AE3CB33ABE26D /* Pods_16___TumblrMenuReCreation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_16___TumblrMenuReCreation.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F439D1A76BD0A028A79CDD19 /* Pods-16 - TumblrMenuReCreation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-16 - TumblrMenuReCreation.release.xcconfig"; path = "Pods/Target Support Files/Pods-16 - TumblrMenuReCreation/Pods-16 - TumblrMenuReCreation.release.xcconfig"; sourceTree = "<group>"; };
 		F887AFF31512279013D57B2B /* Pods-16 - TumblrMenuReCreation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-16 - TumblrMenuReCreation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-16 - TumblrMenuReCreation/Pods-16 - TumblrMenuReCreation.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				2E3A68F51D04A60F00CEC4A8 /* MainScreenTableViewController.swift */,
 				2E3A68FB1D04D98300CEC4A8 /* TableViewCell.swift */,
 				2E3A68F71D04A62E00CEC4A8 /* MenuScreenViewController.swift */,
+				2EC9B1351D076BE800B8B753 /* TransistionManager.swift */,
 				2E3A68C81D04A59400CEC4A8 /* Main.storyboard */,
 				2E3A68CE1D04A59400CEC4A8 /* Assets.xcassets */,
 				2E3A68D01D04A59400CEC4A8 /* LaunchScreen.storyboard */,
@@ -344,6 +347,7 @@
 				2E3A68F61D04A60F00CEC4A8 /* MainScreenTableViewController.swift in Sources */,
 				2E3A68F81D04A62E00CEC4A8 /* MenuScreenViewController.swift in Sources */,
 				2E3A68CD1D04A59400CEC4A8 /* _6___TumblrMenuReCreation.xcdatamodeld in Sources */,
+				2EC9B1361D076BE800B8B753 /* TransistionManager.swift in Sources */,
 				2E3A68C51D04A59400CEC4A8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

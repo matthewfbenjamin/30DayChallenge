@@ -221,6 +221,12 @@
                     </view>
                     <connections>
                         <outlet property="cancelButtonOutlet" destination="KwD-0K-7zF" id="PMG-kU-xJH"/>
+                        <outlet property="chatIcon" destination="rA1-4q-p0J" id="4SW-zx-seH"/>
+                        <outlet property="linkIcon" destination="QxU-zz-XHa" id="GTX-Ha-pDK"/>
+                        <outlet property="messageIcon" destination="qMa-Ep-QWB" id="MRL-Wc-IRN"/>
+                        <outlet property="musicIcon" destination="vMg-nT-LZY" id="I8d-Bj-ZeY"/>
+                        <outlet property="photoIcon" destination="CDS-cD-kzp" id="uOu-RM-hzj"/>
+                        <outlet property="textIcon" destination="f6o-SH-03B" id="asY-OV-cAY"/>
                         <segue destination="tGm-Hh-6s2" kind="unwind" identifier="unWindToMain" unwindAction="unwindToMain:" id="syT-R1-0Pp"/>
                     </connections>
                 </viewController>
