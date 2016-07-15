@@ -31,7 +31,8 @@ class ViewController: UIViewController, UITextViewDelegate {
         let newText = (textView.text as NSString).stringByReplacingCharactersInRange(range, withString: text)
         let numberOfChars = newText.characters.count
         let labelCount = 140 - numberOfChars
-        if labelCount >= 10 {
+        
+        if labelCount > 10 {
             
             charCountLabel.textColor = UIColor.whiteColor()
             
@@ -45,14 +46,13 @@ class ViewController: UIViewController, UITextViewDelegate {
             }
         }
             
-        else {
+        if labelCount<=10 && labelCount>0 {
             charCountLabel.textColor = UIColor.redColor()
             charCountLabel.font = UIFont(name:"HelveticaNeue-Bold", size: 25.0)
             //charCountLabel.transform = CGAffineTransformScale(charCountLabel.transform, 0.35, 0.35);
             UIView.animateWithDuration(0.5, animations: {
                 self.charCountLabel.transform = CGAffineTransformScale(self.charCountLabel.transform, 1.1, 1.1)
             })
-            
             resetFont = true
             
         }
