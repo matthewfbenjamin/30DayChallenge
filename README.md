@@ -68,10 +68,13 @@ Note that I did this as a tutorial from https://www.raywenderlich.com/102590/how
 ![alt tag](https://github.com/mbenjamin618/30DayChallenge/blob/master/16%20-%20TumblrMenuReCreation/tumblr.gif)
 
 #Project 17: Character Count
+
 ![alt tag](https://github.com/mbenjamin618/30DayChallenge/blob/master/17%20-%20charLimit/count.gif)
 
-#Project 18: Table Swipe 
+#Project 18: Table Swipe
+
 ![alt tag](https://github.com/mbenjamin618/30DayChallenge/blob/master/18%20-%20CollectionViewAnimation/sideSwipe.gif)
 
+#Project 19 
 
 
